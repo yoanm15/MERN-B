@@ -5,7 +5,7 @@ function Login() {
     const [loginName, setLoginName] = React.useState('');
     const [loginPassword, setPassword] = React.useState('');
 
-    const app_name = '64.227.20.253';
+    const app_name = 'way-finder.xyz';
     function buildPath(route: string): string {
         if (process.env.NODE_ENV != 'development') {
             return 'http://' + app_name + ':5000/' + route;
